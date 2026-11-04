@@ -1,0 +1,82 @@
+{
+    "repo":  "ai-ops-agents",
+    "title":  "AI Ops Agents",
+    "tagline":  "A read-only LLM log-triage agent, OpenTelemetry tracing for LLM calls and a guide to monitoring RAG applications.",
+    "groups":  [
+                   {
+                       "name":  "Overview",
+                       "items":  [
+                                     {
+                                         "path":  "README.md",
+                                         "title":  "Overview"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "Docs",
+                       "items":  [
+                                     {
+                                         "path":  "docs/agent-safety.md",
+                                         "title":  "Guardrails for operations agents"
+                                     },
+                                     {
+                                         "path":  "docs/monitoring-llm-apps.md",
+                                         "title":  "Monitoring LLM, RAG and vector-search applications"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "Source files",
+                       "items":  [
+                                     {
+                                         "path":  "requirements.txt",
+                                         "title":  "requirements.txt"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "Source: agents",
+                       "items":  [
+                                     {
+                                         "path":  "agents/log_triage.py",
+                                         "title":  "agents/log_triage.py"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "Source: observability",
+                       "items":  [
+                                     {
+                                         "path":  "observability/llm_tracing.py",
+                                         "title":  "observability/llm_tracing.py"
+                                     }
+                                 ]
+                   }
+               ],
+    "pages":  [
+                  {
+                      "path":  "README.md",
+                      "title":  "Overview"
+                  },
+                  {
+                      "path":  "docs/agent-safety.md",
+                      "title":  "Guardrails for operations agents"
+                  },
+                  {
+                      "path":  "docs/monitoring-llm-apps.md",
+                      "title":  "Monitoring LLM, RAG and vector-search applications"
+                  },
+                  {
+                      "path":  "requirements.txt",
+                      "title":  "requirements.txt"
+                  },
+                  {
+                      "path":  "agents/log_triage.py",
+                      "title":  "agents/log_triage.py"
+                  },
+                  {
+                      "path":  "observability/llm_tracing.py",
+                      "title":  "observability/llm_tracing.py"
+                  }
+              ]
+}
